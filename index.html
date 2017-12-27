@@ -4,15 +4,18 @@
 	<meta charset="UTF-8">
 	<title>Form JQuery</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
 
 	<div id="boxLogin">
-		<p>Inicio Sesión</p>
-
-		<input type="text" class="name" name="userName" placeholder="Usuario">
-		<input type="password" class="psw" name="userPsw" placeholder="Contraseña">
-		<input type="submit" class="send" value="Enviar">
+		<form id="formLogin">
+			<p>Inicio Sesión</p>
+			<input type="text" class="name" name="userName" placeholder="Usuario">
+			<input type="password" class="psw" name="userPsw" placeholder="Contraseña">
+			<input type="submit" class="send" value="Enviar">
+		</form>
 
 	</div>
 	
